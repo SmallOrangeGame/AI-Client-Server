@@ -83,5 +83,5 @@ class ElevStatusWsServer(Thread):
             # client.close()
 
 if __name__ == '__main__':
-    es = ElevStatusWsServer('127.0.0.1', 8787).start()
+    es = ElevStatusWsServer('81.68.217.122', 8600).start()
 
